@@ -18,11 +18,11 @@ h1{
 	width: 482px;
 	height: 24px;
 	border-radius: 24px;
-	padding: 10px;
+	padding: 0.7em;
 }
 
 .search{
-	height: 35px;
+	height: 10em;
 }
 
 .nav-items{
@@ -41,4 +41,15 @@ h1{
 .right{
 	display: flex;
 	margin-left: auto;
+}
+
+.buttons button{
+	padding: 1em;
+	border: 0;
+	border-radius: 3px;
+}
+
+.buttons button:hover{
+	padding: 0.9em;
+	border: 0.1px solid dimgray;
 }
