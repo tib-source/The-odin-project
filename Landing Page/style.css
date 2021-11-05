@@ -1,1 +1,255 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background: #1F2937;
+}
+
+main section {
+  width: 70%;
+  height: 80vh;
+  padding: 1em 0;
+}
+
+main section .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main section .header .logo {
+  font-size: 24px;
+  font-weight: bolder;
+  color: #F9faf8;
+}
+
+main section nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+
+main section nav a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+main .hero {
+  color: #F9faf8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 4rem 0;
+}
+
+main .hero .text {
+  width: 50%;
+}
+
+main .hero .text h1 {
+  font-size: 48px;
+  padding: 0;
+  margin: 0;
+  color: #F9faf8;
+}
+
+main .hero .text .herobtn {
+  padding: 0.2rem 1rem;
+  background-color: #3882f6;
+  outline: none;
+  border: none;
+  color: #F9faf8;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+main .hero .image {
+  width: 700px;
+  height: 400px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  background-color: #e5e7eb;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .random {
+  width: 100%;
+  background: #F9faf8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3rem 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+}
+
+main .random .boxwrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+}
+
+main .random .boxwrapper .boxes {
+  width: 150px;
+  text-align: center;
+}
+
+main .random .boxwrapper .boxes .box {
+  width: 100%;
+  height: 150px;
+  border: 5px solid #3882f6;
+  border-radius: 10px;
+}
+
+main .quote {
+  width: 100%;
+  background-color: #e5e7eb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 4rem 0;
+}
+
+main .quote .quotewrapper {
+  width: 50%;
+}
+
+main .quote .quotewrapper h2 {
+  text-align: left;
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 100;
+  padding: 0;
+  margin: 0;
+}
+
+main .quote .quotewrapper p {
+  padding: 0;
+  margin: 0;
+  text-align: right;
+  font-weight: bolder;
+}
+
+main .cta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 6rem;
+  width: 100%;
+  background-color: #F9faf8;
+}
+
+main .cta .ctawrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #3882f6;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 70%;
+  color: #e5e7eb;
+  padding: 2rem 0;
+  gap: 2rem;
+  border-radius: 10px;
+}
+
+main .cta .ctawrapper h4, main .cta .ctawrapper p {
+  margin: 0;
+  padding: 0;
+}
+
+main .cta .ctawrapper button {
+  border: 3px solid #e5e7eb;
+  background-color: transparent;
+  color: #e5e7eb;
+  padding: 0.3rem 1rem;
+  border-radius: 5px;
+}
+
+main footer {
+  color: #F9faf8;
+}
+
+main footer h4 {
+  font-weight: 100;
+}
+/*# sourceMappingURL=style.css.map */
