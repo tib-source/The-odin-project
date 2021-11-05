@@ -61,6 +61,7 @@ main{
     padding: 4rem 0;
     .text{ 
       width: 50%;
+      flex-grow: 1;
       h1{ 
         font-size: $hero-font;
         padding: 0;
@@ -155,7 +156,7 @@ main{
       align-items: center;
       justify-content: space-evenly;
       width: 70%;
-      color: $hero-secondary-color;
+      color: $hero-color;
       padding: 2rem 0;
       gap: 2rem;
       border-radius: 10px;
@@ -164,9 +165,9 @@ main{
         padding:0;
       }
       button{ 
-        border: 3px solid $hero-secondary-color;
+        border: 3px solid $hero-color;
         background-color: transparent;
-        color: $hero-secondary-color;
+        color: $hero-color;
         padding: 0.3rem 1rem;
         border-radius: 5px;
         

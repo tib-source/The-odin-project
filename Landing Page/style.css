@@ -81,6 +81,9 @@ main .hero {
 
 main .hero .text {
   width: 50%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 main .hero .text h1 {
@@ -226,7 +229,7 @@ main .cta .ctawrapper {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   width: 70%;
-  color: #e5e7eb;
+  color: #F9faf8;
   padding: 2rem 0;
   gap: 2rem;
   border-radius: 10px;
@@ -238,9 +241,9 @@ main .cta .ctawrapper h4, main .cta .ctawrapper p {
 }
 
 main .cta .ctawrapper button {
-  border: 3px solid #e5e7eb;
+  border: 3px solid #F9faf8;
   background-color: transparent;
-  color: #e5e7eb;
+  color: #F9faf8;
   padding: 0.3rem 1rem;
   border-radius: 5px;
 }
